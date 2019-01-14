@@ -1,0 +1,96 @@
+body {background-color: #000033;
+	  background-image: none;
+	  color: #003300;
+	  font-family: Arial, Helvetica, sans-serif;
+	  margin: 0;
+	  padding: 0;}
+
+h1 {padding-left: 2em;
+	text-indent: 0;}
+
+h2 {color: #003366;
+	margin: 0;}
+
+h3 {color: #006600;
+	padding-top: 0;
+	margin: 0;}
+
+dd {font-style: italic;
+	font-size: .90em;
+	line-height: 100%;}
+
+#header {color: #48751a;
+		 background-image: url(primemobile.gif);
+		 background-repeat: no-repeat;
+		 height: 70px;
+		 padding-bottom: 0.4em;
+		 margin: 0;
+		 text-shadow: 1px 1px 1px #000033;}
+
+.nav {font-weight: bold;
+	  font-size: 1.2em;
+	  display: none;}
+
+.contact {font-weight: bold;
+		  font-size: .90em;
+		  font-family: "Times New Roman", serif;}
+
+#footer {font-size: .60em;
+		 font-style: italic;
+		 clear: both;
+		 padding-bottom: 0;
+		 padding-top: 0;}
+
+#wrapper {width: 100%;
+		  margin-right: 0;
+		  margin-left: 0;
+		  background-color: #ffffcc;
+		  min-width: 0;
+		  padding: 0;
+		  border: ridge 1px #00332b;
+		  border-radius: 15px;
+		  -webkit-box-shadow: inset -3px -3px 3px 3px #00332b;
+		  -mox-box-shadow: inset -3px -3px 3px 3px #00332b;
+		  box-shadow: inset -3px -3px 3px 3px #00332b}
+
+img {border: none;}
+
+#left {float: none;
+	   width: 100%;
+	   padding: 0;
+	   margin: 0;}
+
+	#left a {text-decoration: none;
+			 display: block;
+			 text-align: center;
+			 color: #ffffcc;
+			 font-weight: bold;
+			 border: 3px outset #cccccc;
+			 padding: 0.3em;
+			 width: 92%;}
+
+		#left a:link {background-color: #003366;}
+
+		#left a:visited {background-color: #48751a;}
+
+		#left a:hover {border: 3px inset #333333;}
+
+	#left ul {list-style-type: none;
+			  margin: 0;
+			  padding: 0;}
+
+#right {margin: 0;
+		padding: 0.5em;
+		font-size: 90%;}
+
+	#right p, #right ul, #right dd, #right dt {margin: 0.3em;}
+
+.floatleft {float: none;
+			padding: 0;}
+
+.clear {clear: left;}
+
+#mobile {display: inline;}
+
+#desktop {display: none;}
+
